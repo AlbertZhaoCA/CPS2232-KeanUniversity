@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 
 //use for loop to do the fibonaqch
 public class As1Q1PartC{

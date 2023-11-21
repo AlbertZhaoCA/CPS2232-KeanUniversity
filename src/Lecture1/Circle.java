@@ -1,6 +1,6 @@
-package lecture;
+package lecture1;
 
-public class Circle extends GeometricObject{
+public class Circle extends GeometricObject {
     private double radius;
 
     public Circle(){

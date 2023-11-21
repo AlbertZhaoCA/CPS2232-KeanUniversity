@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 //compute the double summation
 public class AsQ1PartB {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 
 public class TestMyArrayList {
     public static void main(String[] args) {

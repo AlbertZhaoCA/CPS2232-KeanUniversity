@@ -1,4 +1,4 @@
-package Homework;
+package homework;
 //the use of a generic type (T)
 public class As1Q2<T> {
 

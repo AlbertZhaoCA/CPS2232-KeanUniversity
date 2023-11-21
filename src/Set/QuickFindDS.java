@@ -1,5 +1,6 @@
-package Set;
+package set;
 
+import list.IntList;
 public class QuickFindDS  {
     private int[] id;
 
@@ -32,6 +33,7 @@ public class QuickFindDS  {
         aSet.connect(6,5);
         aSet.connect(6,7);
         System.out.println( aSet.isConnected(2,1));
+        IntList aList = new IntList(1,null);
 
     }
 
