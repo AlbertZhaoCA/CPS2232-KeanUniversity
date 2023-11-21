@@ -1,4 +1,4 @@
-package Pointer;
+package pointer;
 
 public class TwoPointerMergingArrays {
 

@@ -1,4 +1,4 @@
-package List;
+package list;
 
 public class IntList {
 	public int first;
@@ -18,8 +18,7 @@ public class IntList {
 	}
 	public int size() {
 		if(this.theNext==null)
-			return 1;		
-			
+			return 1;
 		return 1 + this.size();
 		
 	}
