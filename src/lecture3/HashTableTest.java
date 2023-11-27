@@ -11,6 +11,7 @@ public class HashTableTest {
         for (int i = 0;i<ints.length;i++) {
             int index= ints[i] % n;
             System.out.println(index);
+    
         }
 
     }
