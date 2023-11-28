@@ -39,7 +39,7 @@ public class SelectionSort {
 
 
     public static void main(String[] args) {
-        double[] list = {2,3,2,6,5};
+        double[] list = {6,5,1,-2,-3,17,2,3,2,6,1,-2,3,17,12};
         selectionSort(list);
     }
 }
