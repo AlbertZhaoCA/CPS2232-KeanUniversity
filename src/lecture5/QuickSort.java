@@ -10,13 +10,18 @@ public class QuickSort {
         if(last > first){
             int pivotIndex = partition(list,first,last);
             quickSort(list,first,pivotIndex - 1);
+            quickSort(list,pivotIndex +1,last);
         }
     }
+    
     public static int partition(int[] list, int first,int last){
         int pivot = list[first];
         int low = first +1;
         int high = last;
         while(high > low){
+            while(low <= high && list[low] <= pivot){
+                low++;
+            }
             while (low<=high && list[high]>pivot) {
                 high--;
             }
