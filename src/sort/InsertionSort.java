@@ -1,4 +1,4 @@
-package lecture5;
+package sort;
 
 public class InsertionSort {
     public static void insertionSort(int[] list) {

@@ -1,6 +1,7 @@
-package lecture5;
+package sort;
 
 public class QuickSort {
+    static int steps;
     public static void quickSort(int[] list){
         quickSort(list,0,list.length-1);
 
@@ -36,20 +37,26 @@ public class QuickSort {
         high--;
 
         if(pivot > list[high]){
+            steps++;
             list[first] = list[high];
             list[high] = pivot;
             return high;
         }
-        else{return first;}
+        else{
+            steps++;
+            return first;}
 
     }
     public static void main(String[] args){
         int[] list  = {2,3,2,5,6,1,-2,3,14,12};
+        long startTime = System.nanoTime();
         quickSort(list);
+        long endTime = System.nanoTime();
         for(int i = 0;i<list.length;i++){
             System.out.print(list[i] +" ");
         }
-        System.out.println("Taken time: 7962340");
+        System.out.println("\nTaken time: " + (endTime - startTime));
+        System.out.println(steps + " steps taken");
 
     }
 }
