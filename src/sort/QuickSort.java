@@ -1,4 +1,4 @@
-package lecture5;
+package sort;
 
 public class QuickSort {
     static int steps;

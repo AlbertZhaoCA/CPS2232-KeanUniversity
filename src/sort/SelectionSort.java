@@ -1,4 +1,4 @@
-package lecture5;
+package sort;
 
 public class SelectionSort {
     public static void selectionSort(double[] list){

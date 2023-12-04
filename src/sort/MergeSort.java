@@ -1,4 +1,4 @@
-package lecture5;
+package sort;
 
 public class MergeSort {
     static int steps = 0;
