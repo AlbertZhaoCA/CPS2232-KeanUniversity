@@ -76,7 +76,7 @@ moving in reverse level order up the heap, sinking nodes to their appropriate lo
 ![img0](./img.png)
 
 
-### Merge Sort
+### [Merge Sort][ms]
 1. Split the items into half.
 2. Mergesort each half.
 3. Merge the two sorted halves to form the final result.
@@ -149,7 +149,7 @@ public class MergeSort {
 ![img](./img_2.png) 
 merge only take O(N) time to merge two sorted halves. The total is O(NlogN) time.
 
-### Insertion Sort
+### [Insertion Sort][is]
 
 In insertion sort, we start with an empty output sequence. Then, we select an item from the input, inserting into the 
 output array at the correct location.  
@@ -201,7 +201,23 @@ public class InsertionSort {
 [Overview][ref]
 
 
+EXERCISES     
 
+How many inversions are there in the array [10, 100, 60, 40, 50]?    
+    
+    5; the violations are 100 > 60, 100 > 40, 100 > 50, 60 > 40, and 60 > 50.  
+ 
+ What is the space complexity of selection sort?  
+ 
+    Θ(1). All swaps in selection sort happen in-place.  
+
+If we are insertion sorting [5, 6, 7, 1, 8, 9, 2], how many total swaps will occur?  
+ 
+    8; simply count the number of inversions (5 > 1, 5 > 2, 6 > 1, 6 > 2, 7 > 1, 7 > 2, 8 > 2, 9 > 2).
+
+Which sort do you expect to run more quickly on a reversed array, selection sort or insertion sort?  
+ 
+     Asymptotically, both selection and insertion sort run in Θ(N^2)  on a reverse-sorted array. However, note that selection sort only does N  total swaps (finding the maximum, then swapping to the  (front), while insertion sort does on the order of N^2  swaps (swapping each item to the front), so insertion sort will actually be slower by a constant factor.
 
 ---
 
@@ -210,3 +226,5 @@ public class InsertionSort {
 
 [ss]: ./SelectionSort.java
 [ref]: https://cs61b-2.gitbook.io/cs61b-textbook/29.-basic-sorts/29.5-summary
+[ms]:./MergeSort.java
+[is]: ./InsertionSort
