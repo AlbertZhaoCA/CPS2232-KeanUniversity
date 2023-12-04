@@ -292,27 +292,7 @@ public static void quickSort(int[] list){
 }
 ```
 
-[ALSO SEE THE COMPARISON BETWEEN RANDOM PICK-UP PIVOT WITH PIVOT FROM LEFT-MOST PIVOT ](./RandomPickQS.java) 
 
-***CONCLUSION:***  
-
-In the quicksort algorithm, the choice of the pivot element can impact the efficiency of the algorithm. Generally, there 
-are two common ways to choose the pivot:
-
-Fixed-position pivot: Selecting the first element of the array (typically the leftmost element) as the pivot.
-
-Randomly choosing a pivot: Selecting a random element from the array as the pivot.
-
-When the array is small, randomly choosing the pivot might be faster than using a fixed-position pivot because choosing 
-a fixed-position pivot in an almost sorted array could result in poor performance. Randomly choosing the pivot increases
-the likelihood of avoiding this situation, as it disrupts the existing order.
-
-However, as the array size increases, the performance of randomly choosing the pivot may degrade. This is because in large
-datasets, random selection might lead to relatively poor partitioning, affecting the overall sorting efficiency. In larger
-datasets, a fixed-position pivot (e.g., selecting the first element) might more easily result in a well-balanced partition.
-
-In practice, for quicksort, heuristic methods are often employed, such as the median-of-three method (selecting the first,
-last, and middle elements and choosing their median as the pivot). This helps balance the performance for different data distributions. The optimal choice may vary depending on the nature of the data. In real-world applications, selecting an appropriate pivot strategy is often determined through experience and experimentation.
 
 [ALL COMES FROM CS 61B](https://cs61b-2.gitbook.io/cs61b-textbook/)
 
