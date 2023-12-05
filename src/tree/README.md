@@ -1,0 +1,1 @@
+![](./img.png)  **DUPLICATED ELEMENTS ARE ALLOWED**
