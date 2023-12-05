@@ -1,11 +1,11 @@
 package generics;
 
-import lecture1.Circle;
-import lecture1.GeometricObject;
+import preparation.Circle;
+import preparation.GeometricObject;
 
 public class BoundedTypeDemo {
     public static void main(String[] args) {
-        lecture1.Rectangle rectangle = new lecture1.Rectangle(2,2);
+        preparation.Rectangle rectangle = new preparation.Rectangle(2,2);
         Circle circle = new Circle(2);
         System.out.println("Same area? " + equalArea(rectangle,circle));
     }
