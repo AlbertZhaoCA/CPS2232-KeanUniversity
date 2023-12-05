@@ -1,4 +1,4 @@
-package lecture5;
+package hashing;
 
 public class HashCodeDemo {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lecture5;
+package hashing;
 
 public class HashCodeReturnFunction {
     static int n = 12;

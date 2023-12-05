@@ -1,4 +1,4 @@
-package lecture5;
+package algorithmAnalysis;
 
 public class NTimeComplexity {
     static int steps;

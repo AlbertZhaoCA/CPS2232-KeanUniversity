@@ -1,4 +1,6 @@
-package lecture1;
+package generics;
+
+import generics.GenericStack;
 
 public class GenericsTest {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package lecture1;
+package generics;
 
 public class GenericType<T> {
     private T t;

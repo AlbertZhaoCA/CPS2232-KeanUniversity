@@ -1,4 +1,4 @@
-package lecture5;
+package hashing;
 
 public class BitWiseRightShift {
     public static void main(String[] args) {

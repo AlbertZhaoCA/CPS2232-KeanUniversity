@@ -1,4 +1,4 @@
-package lecture5;
+package hashing;
 
 public class ModuloHashing {
     public static int hash(int key,int N){

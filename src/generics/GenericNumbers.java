@@ -1,4 +1,4 @@
-package lecture1;
+package generics;
 
 public class GenericNumbers <E,T> {
     private E firstNumber;

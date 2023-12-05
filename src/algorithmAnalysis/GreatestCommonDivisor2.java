@@ -1,4 +1,4 @@
-package lecture5;
+package algorithmAnalysis;
 public class GreatestCommonDivisor2 {
     static long startTime;
     static long endTime;

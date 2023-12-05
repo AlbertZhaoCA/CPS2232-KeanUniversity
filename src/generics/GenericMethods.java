@@ -1,4 +1,4 @@
-package lecture1;
+package generics;
 public class GenericMethods<E> {
 
     public static void main(String[] args) {

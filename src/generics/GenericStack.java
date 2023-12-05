@@ -1,4 +1,4 @@
-package lecture1;
+package generics;
 import java.util.ArrayList;
 
 public class GenericStack<E> {

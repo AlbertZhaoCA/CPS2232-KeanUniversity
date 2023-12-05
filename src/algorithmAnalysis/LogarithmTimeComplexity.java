@@ -1,4 +1,4 @@
-package lecture5;
+package algorithmAnalysis;
 
 public class LogarithmTimeComplexity {
     public static void main(String[] args) {

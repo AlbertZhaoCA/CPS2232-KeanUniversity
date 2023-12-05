@@ -1,7 +1,7 @@
-package lecture1;
+package generics;
 
 public class GenericMethod {
-    public static <T> boolean isEqual(GenericType<T>a, GenericType<T>b){
+    public static <T> boolean isEqual(GenericType<T> a, GenericType<T>b){
         return a.getT().equals(b.getT());
     }
 

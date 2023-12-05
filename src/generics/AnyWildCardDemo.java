@@ -1,4 +1,4 @@
-package lecture1;
+package generics;
 
 public class AnyWildCardDemo {
     public static void main(String[] args) {
