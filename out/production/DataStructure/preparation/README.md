@@ -25,6 +25,8 @@ In general, to solve a problem using recursion, you:
 This subproblem is almost the same as the original problem in nature
 with a smaller size.
 
+[see recursive example](../algorithmAnalysis/recursiveBS.java)
+
 
 ```java
 public class RecursivePalindrome {
@@ -49,3 +51,16 @@ public class RecursivePalindrome {
 ![img_1.png](img_1.png)
 Some tips: you want to solve this problem, but start from disk 1 and then solve the next disk 2 is not divide the
 problem into sub-problems. You should treat it as a whole part and dive into two sub-tasks. 
+
+---
+Q: which method is more efficient 
+recursion is an alternative form of program control   
+e.g. the for loop, and while loop.   
+So, recursion is essentially repetition but without a iterative loop.
+Recursion bears substantial overhead.
+Each time the program calls a method, the system must assign space for all of the: 1) method’s local variables and 2) parameters.  
+This can consume considerable memory, and requires extra time to manage the additional space.
+
+
+## [Highly recommendation for OOP is all in CS 61b](https://fa23.datastructur.es/)
+![img_2.png](img_2.png)

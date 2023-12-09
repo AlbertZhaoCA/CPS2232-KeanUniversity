@@ -5,7 +5,7 @@ public class GenericMethods<E> {
         Integer[] num = {1,2,3,4,5};
         String[] str = {"London","Paris","New York","Beijing","Amsterdam"};
         Double[] doubles ={1.2,23.2,2.2};
-        GenericMethods.<Integer>display(num);
+        GenericMethods.<Integer>display(num);//you can omit the <Integer> in this line
         GenericMethods.<String>display(str);
         GenericMethods.<Double>display(doubles);
 
