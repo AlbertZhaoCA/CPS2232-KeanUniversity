@@ -4,7 +4,8 @@ All code written in CPS 2232 (DATA STRUCTURES) @Kean University
 [Preparation For Data Structure][pre]    
 [Generics][generics]  
 [Hashing Technique][hash]  
-[*Sorting*][sa]
+[*Sorting*][sa]  
+[lambda expression](./src/lambda)
 
 ## Abstract Data Type (ADT)
 An abstract data type (ADT) is a set of objects such as `lists`, `sets`, `arrays`, `queues`, `graphs`, and their operations, can 
@@ -38,11 +39,16 @@ And these are implemented in the concrete subclasses
 
 ![img_2.png](img_2.png)  
 ![img_3.png](img_3.png)
+![img_8.png](img_8.png)
 
 
 ## UML
- ![img_4.png](img_4.png) ![img_5.png](img_5.png)![img_6.png](img_6.png)
+ ![img_4.png](img_4.png) 
+ ![img_5.png](img_5.png)
+ ![img_6.png](img_6.png)
 ![img_7.png](img_7.png)
+
+
 [sa]: ./src/sort
 [pre]: ./src/preparation   
 [hash]: ./src/hashing   

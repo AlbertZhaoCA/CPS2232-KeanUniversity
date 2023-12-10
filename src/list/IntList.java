@@ -53,12 +53,6 @@ public class IntList {
 		aList.theNext = aList.theNext.theNext;
 		}
 		
-	
-		
-			
-			
-			
-		
 	}
 
 }

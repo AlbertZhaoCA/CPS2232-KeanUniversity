@@ -6,5 +6,4 @@ public class ArrayList_Object<E> {
             System.out.println(array[i]);
     }
 
-
 }
