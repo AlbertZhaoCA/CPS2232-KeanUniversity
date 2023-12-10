@@ -47,26 +47,3 @@ Advantages:
 ![img_3.png](img_3.png)
 ![img_4.png](img_4.png)
 ![img_5.png](img_5.png)
-![img_6.png](img_6.png)
-![img_7.png](img_7.png)
-
-![img_8.png](img_8.png)
-![img_9.png](img_9.png)
-![img_10.png](img_10.png)
-![img_11.png](img_11.png)
-
-## Collision Resolution
-- Collision resolution is the process of handling two different keys mapping to the same hash value.
-- There are two ways to resolve collisions:
-    - Open addressing  
-      open addressing is a method of collision resolution in hash tables. With this method a hash collision is resolved 
-      by probing, or searching through alternate locations in the array (the probe sequence) until either the target record
-      is found, or an unused array slot is found, which indicates that there is no such key in the table.
-      1. linear probing,
-         (k + j) % N When a collision occurs during the insertion of an entry to a hash table, linear probing finds the next available (k + j) location sequentially.
-      ![img_12.png](img_12.png)
-      3. quadratic probing, 
-      ![img_13.png](img_13.png)![img_14.png](img_14.png)
-      3. double hashing.![img_15.png](img_15.png)![img_16.png](img_16.png)![img_17.png](img_17.png)
-- Separate chaining
-![img_18.png](img_18.png)![img_19.png](img_19.png)![img_20.png](img_20.png)![img_21.png](img_21.png)
