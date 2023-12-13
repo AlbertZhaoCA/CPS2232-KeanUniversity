@@ -5,8 +5,10 @@ All code written in CPS 2232 (DATA STRUCTURES) @Kean University
 [Generics][generics]  
 [Hashing Technique][hash]  
 [*Sorting*][sa]  
-[lambda expression](./src/lambda)
-
+[lambda expression](./src/lambda)  
+[BST](./src/tree)  
+[RBT](https://oi-wiki.org/ds/rbtree/)
+[also see RBT ](https://www.javatpoint.com/red-black-tree)
 ## Abstract Data Type (ADT)
 An abstract data type (ADT) is a set of objects such as `lists`, `sets`, `arrays`, `queues`, `graphs`, and their operations, can 
 be viewed as ADTs, just as integers, real, and boolean are data types. together with a set of operations on the objects. The set of operations defines the interface of the ADT. The implementation of the operations defines the implementation of the ADT. The implementation of an ADT is called a data structure.
@@ -47,6 +49,20 @@ And these are implemented in the concrete subclasses
  ![img_5.png](img_5.png)
  ![img_6.png](img_6.png)
 ![img_7.png](img_7.png)
+
+
+##  Dynamic Programming
+Dynamic programming is a technique for solving problems recursively. It is applicable to problems that exhibit the properties 
+of overlapping subproblems which are only slightly smaller and optimal substructure which means that an optimal solution 
+to the problem contains within it optimal solutions to subproblems.  
+storing the results of the subproblem for reuse to avoid recomputing same results again
+
+DP can often be used to produce polynomial-time algorithms to solve problems in O(n), that seem to require exponential time O(2^n).
+![img_9.png](img_9.png)![img_10.png](img_10.png)![img_11.png](img_11.png)![img_12.png](img_12.png)![img_13.png](img_13.png)
+
+
+
+
 
 
 [sa]: ./src/sort
